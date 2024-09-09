@@ -5,3 +5,4 @@
     vent.title("Calculadora Simple")
     vent.geometry("600x400")
     vent.configure(bg=bg_color)
+    global txt1, txt2, txt3
