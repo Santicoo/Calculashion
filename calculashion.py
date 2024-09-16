@@ -11,6 +11,10 @@ def crear_ventana():
     vent.geometry("600x400")
     vent.configure(bg=bg_color)
     global txt1, txt2, txt3
+    lbl1 = Label(vent, text="Número 1", fg=fg_color, bg=bg_color, font=font)
+    lbl1.place(relx=0.5, rely=0.1, anchor='center', relwidth=0.6, relheight=0.1)
+    txt1 = Entry(vent)
+    txt1.place(relx=0.5, rely=0.2, anchor='center', relwidth=0.6, relheight=0.1)
 def fnsuma():
     n1 = txt1.get()
     n2 = txt2.get()
