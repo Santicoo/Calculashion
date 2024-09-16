@@ -31,6 +31,8 @@ def crear_ventana():
     btn_multiplicar.place(relx=0.6, rely=0.72, anchor='center', relwidth=0.2, relheight=0.1)
     btn_dividir = Button(vent, text="Dividir", command=fndivi, font=font)
     btn_dividir.place(relx=0.8, rely=0.72, anchor='center', relwidth=0.2, relheight=0.1)
+    btn_minimo_multiplo = Button(vent, text="Mínimo Múltiplo", command=fnminimomultiplo, font=font)
+    btn_minimo_multiplo.place(relx=0.4, rely=0.85, anchor='center', relwidth=0.2, relheight=0.1)
 def fnsuma():
     n1 = txt1.get()
     n2 = txt2.get()
