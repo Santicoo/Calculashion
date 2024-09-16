@@ -27,6 +27,8 @@ def crear_ventana():
     btn_sumar.place(relx=0.2, rely=0.72, anchor='center', relwidth=0.2, relheight=0.1)
     btn_restar = Button(vent, text="Restar", command=fnresta, font=font)
     btn_restar.place(relx=0.4, rely=0.72, anchor='center', relwidth=0.2, relheight=0.1)
+    btn_multiplicar = Button(vent, text="Multiplicar", command=fnmulti, font=font)
+    btn_multiplicar.place(relx=0.6, rely=0.72, anchor='center', relwidth=0.2, relheight=0.1)
 def fnsuma():
     n1 = txt1.get()
     n2 = txt2.get()
