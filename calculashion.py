@@ -19,6 +19,10 @@ def crear_ventana():
     lbl2.place(relx=0.5, rely=0.3, anchor='center', relwidth=0.6, relheight=0.1)
     txt2 = Entry(vent)
     txt2.place(relx=0.5, rely=0.4, anchor='center', relwidth=0.6, relheight=0.1)
+    lbl3 = Label(vent, text="Resultado", fg=fg_color, bg=bg_color, font=font)
+    lbl3.place(relx=0.5, rely=0.5, anchor='center', relwidth=0.6, relheight=0.1)
+    txt3 = Entry(vent)
+    txt3.place(relx=0.5, rely=0.6, anchor='center', relwidth=0.6, relheight=0.1)
 def fnsuma():
     n1 = txt1.get()
     n2 = txt2.get()
