@@ -35,6 +35,8 @@ def crear_ventana():
     btn_minimo_multiplo.place(relx=0.4, rely=0.85, anchor='center', relwidth=0.2, relheight=0.1)
     btn_maximo_divisor = Button(vent, text="Máximo Divisor", command=fnmaximodivisor, font=font)
     btn_maximo_divisor.place(relx=0.6, rely=0.85, anchor='center', relwidth=0.2, relheight=0.1)
+    btn_salir = Button(vent, text="x", command=fnsalir, font=font)
+    btn_salir.place(relx=0.95, rely=0.05, anchor='center', relwidth=0.1, relheight=0.1)
 def fnsuma():
     n1 = txt1.get()
     n2 = txt2.get()
