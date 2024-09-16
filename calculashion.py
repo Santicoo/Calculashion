@@ -23,6 +23,8 @@ def crear_ventana():
     lbl3.place(relx=0.5, rely=0.5, anchor='center', relwidth=0.6, relheight=0.1)
     txt3 = Entry(vent)
     txt3.place(relx=0.5, rely=0.6, anchor='center', relwidth=0.6, relheight=0.1)
+    btn_sumar = Button(vent, text="Sumar", command=fnsuma, font=font)
+    btn_sumar.place(relx=0.2, rely=0.72, anchor='center', relwidth=0.2, relheight=0.1)
 def fnsuma():
     n1 = txt1.get()
     n2 = txt2.get()
